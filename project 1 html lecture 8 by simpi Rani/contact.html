@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="product 1.jpg">
+    <link rel="stylesheet" href="product 2.jpg">
+    <link rel="stylesheet" href="product 4.jpg">
+    <link rel="stylesheet" href="product 3.jpg">
+    <link rel="stylesheet" href="products.html">
+    <link rel="stylesheet" href="productsdetail.html">
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ThreadCo</h1>
+        <em>Wear the Code. Live the Street.</em>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="productsdetail.html">Product Detail</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="">Cart (0)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Get In Touch</h2>
+            <p>Have a question, a collab idea, or just want to talk street fashion? <b>We are here.</b> Real humans,
+                real&nbsp;replies - within 24 hours.</p>
+            <h2>Send Us a Message</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Your Info</legend>
+                    <label for="11">Full Name:</label>
+                    <input type="text" id="11" placeholder="Rahul Kumar" required>
+                    <br><br>
+                    <label for="12">Email Address:</label>
+                    <input type="email" id="12" placeholder="RahulKumar@gamil.com" required>
+                    <br><br>
+                    <label for="13">Phone Number (optional):</label>
+                    <input type="number" min="1000000000" max="9999999999" placeholder="9876543210"><br>
+                    <small>10-digit Indian mobile number</small>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <label for="14">Subject:</label>
+                    <select id="14" required>
+                        <option value="">-- Select a Topic --</option>
+                        <option value="">Order Issue</option>
+                        <option value="">Return / Refund</option>
+                        <option value="">Collaboration / Partnership</option>
+                        <option value="">Wholesale Enquiry</option>
+                        <option value="">General Enquiry</option>
+                    </select><br><br>
+                    <label for="15">Message:</label><br>
+                    <textarea id="15" rows="6" cols="50" placeholder="Tell us what is on your mind..."
+                        required></textarea>
+                    <br><br>
+                    <label for="16">Attach a File (optional):</label>
+                    <input type="file"><br>
+                    <small>Max file size: 5MB. Accepted: JPG, PNG, PDF</small>
+                    <br><br>
+                    <input type="checkbox" required id="17">
+                    <label for="17"> I agree to be contacted by ThreadCo regarding my enquiry. I have read the <a
+                            href="Privacy Policy">Privacy Policy</a>.</label>
+                </fieldset><br>
+                <button type="submit">Send Message</button>
+                <button type="reset">Clear form</button>
+            </form>
+        </section>
+        <section>
+            <h2>Our Details</h2>
+            <address>
+                <b>ThreadCo HQ </b><br>
+                42, Street Level, Hauz Khas Village<br>
+                New Delhi — 110016<br>
+                India
+            </address>
+            <br>
+            <a href="mailto:doreamon@gmail.com">doramon@gmail.com</a><br>
+            <a href="tel:8946546942">8956549942</a><br>
+            <h3>Store Hours</h3>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Hours</th>
+                </tr>
+                <tr>
+                    <td>Monday — Friday</td>
+                    <td>10:00 AM — 7:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>11:00 AM — 5:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td> <em>Closed</em></td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Common Questions</h2>
+            <p>Quick answers so you don’t have to wait for a reply.</p>
+            <br>
+            <details>We ship within 48 hours of order confirmation. Standard delivery takes 3—5 business days across India. Express delivery (1—2 days) is available at checkout for select pin codes.
+                <summary>
+                    How long does delivery take?
+                </summary>
+            </details>
+            <details>Yes! We offer free returns within 7 days of delivery. The item must be unworn, unwashed, and in its original packaging with all tags attached. Initiate your return from the Orders section of your account.
+                <summary>
+                    Can I return my order?
+                </summary>
+            </details>
+            <details>Not yet — but we’re working on it. International shipping is planned for early 2026. Sign up for our newsletter to get notified first.
+                <summary>
+                    Do you ship internationally?
+                </summary>
+            </details>
+            <details>ThreadCo tees and hoodies are oversized by design. If you prefer a more fitted look, we recommend sizing down. Check the <a href="productsdetail.html#size">Size Guide</a> on any product page for exact measurements.
+                <summary>
+                    Are your products true to size?
+                </summary>
+            </details>
+            <details>Once your order ships, you will receive a tracking link via SMS and email. You can also track your order by entering your order ID on our Order Tracking page.
+                <summary>
+                    How do I track my order
+                </summary>
+            </details>
+            <details>Absolutely. ThreadCo works with independent Indian artists on every drop. If you have a design concept or want to collab, reach out via the form above and select “Collaboration / Partnership” as the subject. We read every single message.
+                <summary>
+                    Can I collaborate or submit designs?
+                </summary>
+            </details>
+        </section>
+
+    </main>
+    <footer style="background-color: rgb(117, 128, 53);">
+        <p><b>© 2026 ThreadCo. All rights reserved.</b></p>
+        <em><b>Wear the Code. Live the Street.</b></em>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="productsdetail.html">Contact</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
